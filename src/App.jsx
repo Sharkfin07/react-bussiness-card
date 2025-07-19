@@ -1,4 +1,7 @@
 import profilePicture from './assets/profile-picture.jpg'
+import githubIcon from './assets/github-icon.png'
+import instagramIcon from './assets/instagram-icon.png'
+import facebookIcon from './assets/facebook-icon.png'
 import './App.css'
 
 function App() {
@@ -33,13 +36,13 @@ function App() {
           </section>
           <section className="card-footer">
               <a className="social-icon" href="https://github.com/Sharkfin07">
-                  <img src='/src/assets/github-icon.png' alt="Github profile" />
+                  <img src={githubIcon} alt="Github profile" />
               </a>
               <a className="social-icon" href="https://www.instagram.com/mohzidane_k/">
-                  <img src='/src/assets/instagram-icon.png' alt="Instagram profile" />
+                  <img src={instagramIcon} alt="Instagram profile" />
               </a>
               <a className="social-icon" href="https://www.facebook.com/mohammad.zidanekurnianto.1">
-                  <img src='/src/assets/facebook-icon.png' alt="Facebook profile" />
+                  <img src={facebookIcon} alt="Facebook profile" />
               </a>
           </section>
       </main>
